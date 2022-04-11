@@ -3,7 +3,7 @@ from arcpy import env
 from arcpy.sa import *
 
 env.workspace = "C:/Users/Desktop/reclass_data"
-in_raster = "C:/Users/Desktop/reclass_data/ebk.tif"
+inRaster = "C:/Users/Desktop/reclass_data/ebk.tif"
 reclassField = "VALUE"
 
 # first is variable, can be string, second is the int your reclassifying as
