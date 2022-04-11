@@ -1,5 +1,5 @@
 import arcpy 
-from arc import env
+from arcpy import env
 from arcpy.sa import *
 
 env.workspace = "C:/Users/Desktop/reclass_data"
