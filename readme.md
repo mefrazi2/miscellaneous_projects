@@ -1,11 +1,1 @@
 # A place to put interesting things I'm working on... 
-
-> **/arcpy**
-> 
->   _ tableJoin
->   
->   _ project  
->   
->   _ MakeQueryTable (revers_tableJoin)
->     
->   _ reclassify
