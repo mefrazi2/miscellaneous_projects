@@ -1,7 +1,9 @@
 To find X per instances, let
 
 x = frequency or count
+
 y = population of geography
+
 z = people or instances
 
 where
