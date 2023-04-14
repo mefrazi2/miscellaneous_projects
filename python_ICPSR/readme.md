@@ -1,3 +1,1 @@
-A collection of jupyter notebooks for an introduction to python.
-
-Class taken summer 2022.
+A collection of jupyter notebooks from ICPSR's 2022 Summer Course: Introduction to Python.
