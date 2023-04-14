@@ -1,9 +1,17 @@
-# so simple! Check out the documentation here for a step-by-step: 
-# https://r-coder.com/merge-r/
+#################################################################
 
-df1 <- read.csv("final_output_including_03G_2009.csv")
-df2 <- read.csv("test_2005_population_area.csv")
+###                 How to Merge Datasets                     ###
+###        More info: https://r-coder.com/merge-r/            ###
 
-df3 <- merge(df1, df2, by = c("combo_id", "combo_id"))
+#################################################################
 
-write.csv(df3, "new_test.csv")
+orig_lib <- read.csv("libraries_original.csv")
+
+geo_lib <- read.csv("libraries_geocoded.csv")
+
+
+# merge datasets
+merged_df <- merge(orig_lib, geo_lib, by = c("NAME", "NAME"), all = TRUE)
+
+# export csv
+write.csv(merged_df, "all_addresses.csv")
