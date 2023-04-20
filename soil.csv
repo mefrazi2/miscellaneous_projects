@@ -1,4 +1,4 @@
-﻿Sample Id,Soil Mass (g),Final Volume (mL),measure1,measure2,measure3,Latitude,Longitude,Chicago Neighborhood,Side,General Location
+﻿sample,soil,volume,measure1,measure2,measure3,latitude,longitude,neighborhood,side,general
 1,2.94,100,6727.308,228.82,230,41.91277,-87.720262,Humboldt Park,West Side,1715-1735 N Ridgewat Ave.
 2,3.096,100,1517.266,49.007,49,41.912482,-87.745618,Austin,West Side,1737 N Cicero Ave.
 3,3.2,100,2563.431,80.107,8.00E+01,41.9124113,-87.7349165,Humboldt Park,West Side,NGHS Football Field
